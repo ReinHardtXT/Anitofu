@@ -1,0 +1,30 @@
+/* genres.css */
+
+.genres {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5), 0 0 20px rgba(0, 255, 255, 0.5);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .genres:hover {
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5), 0 0 40px rgba(0, 255, 255, 0.5);
+  }
+  
+
+  .p-4 {
+    background: black;
+    max-width: fit-content;
+  }
+
+  .heading3 {
+    background: linear-gradient(45deg, #00f0ff, #ff00ff);
+    -webkit-background-clip: text;
+    background-clip: text; /* Standard property for compatibility */
+    -webkit-text-fill-color: transparent;}

@@ -1,0 +1,13 @@
+.navbar-search-button {
+    height: 30px;
+    width: auto; /* Set width to auto */
+    padding: 6px 10px; /* Adjust padding as needed */
+  }
+  
+  /* Optional: Adjust the image size */
+  .navbar-search-button img {
+    width: 18px;
+    height: 18px;
+    margin-bottom: 5px;
+  }
+  

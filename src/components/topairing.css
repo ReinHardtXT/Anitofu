@@ -1,0 +1,35 @@
+.main {
+    background: black;
+}
+
+.custom-container {
+    max-width: max-content;
+}
+
+.custom-container {
+    max-width: max-content;
+    padding: 25px;
+    background: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1), 0px 0px 20px rgba(0, 255, 255, 0.5);
+    border: 2px solid rgba(0, 255, 255, 0.5);
+    outline: none;
+    transition: box-shadow 0.3s ease;
+    width: 100%; /* Stretch to the sides */
+}
+
+.custom-container:hover {
+    box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.5), 0px 0px 40px rgba(0, 255, 255, 0.5);
+}
+
+.heading {
+    background: linear-gradient(45deg, #00f0ff, #ff00ff);
+    -webkit-background-clip: text;
+    background-clip: text; /* Standard property for compatibility */
+    -webkit-text-fill-color: transparent;
+}
+.bg {
+    background: black;
+
+}
+

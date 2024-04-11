@@ -1,0 +1,43 @@
+.main-container {
+    padding: 20px;
+    background: black;
+  }
+  
+  .main-container .Heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .main-container .hrs {
+    border-color: #00ff00; /* Neon green color for border */
+  }
+  
+  .main-container .hrs:hover {
+    animation: neon-glow 1s ease-in-out infinite alternate; /* Neon glow animation */
+  }
+  
+  .main-container .g-3 .card {
+    border-color: #00ff00; /* Neon green color for border */
+    transition: border-color 0.3s ease;
+  }
+  
+  .main-container .g-3 .card:hover {
+    border-color: #00ff00; /* Neon green color for border */
+  }
+  
+  @keyframes neon-glow {
+    from {
+      border-color: #00ff00; /* Neon green color for border */
+      box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00; /* Neon glow effect */
+    }
+    to {
+      border-color: #00ff00; /* Neon green color for border */
+      box-shadow: 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00; /* Neon glow effect */
+    }
+  }
+  .heading1 {
+    background: linear-gradient(45deg, #00f0ff, #ff00ff);
+    -webkit-background-clip: text;
+    background-clip: text; /* Standard property for compatibility */
+    -webkit-text-fill-color: transparent;
+  }
