@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Context from "../context/Context";
 import { Container, Navbar, Nav, Form, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import "./navbar.css";
+import './NavBar.css'
 
 const NavBar = () => {
   const { setSearch, search } = useContext(Context);
