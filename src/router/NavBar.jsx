@@ -50,6 +50,9 @@ const NavBar = () => {
             <Nav.Link href="/genres" className="nav-link">
               <b>Genres</b>
             </Nav.Link>
+            <Nav.Link href="/popular" className="nav-link">
+              <b>Popular</b>
+            </Nav.Link>
           </Nav>
           <div className="btn">
           <Form onSubmit={find} className="d-flex navbar-form">

@@ -11,7 +11,7 @@ import Genres from "../components/Genres"
 import Genre from "../components/Genre"
 import SignUp from "../components/SignUp"
 import Login from "../components/Login"
-
+import MostPopular from "../components/MostPopular"
 const Router = () => {
     return (
         <>
@@ -26,7 +26,7 @@ const Router = () => {
                 <Route path="/genres/:genreID" element={<Genre/>}/>
                 <Route path="/SignUP" element={<SignUp/>}/>
                 <Route path="/Login" element={<Login/>}/>
-                
+                <Route path="/popular" element={<MostPopular/>}/>
                 <Route path="*" element={<Err></Err>}/>
                
              </Routes>
